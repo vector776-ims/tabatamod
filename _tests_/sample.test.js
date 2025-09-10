@@ -3,6 +3,6 @@ import Home from "../app/page";
 
 test("renders heading", () => {
     render(<Home />);
-    const heading = screen.getByText(/Interval Timer App/i);
+    const heading = screen.getByText(/Boilerplate app with jest and husky/i);
     expect(heading).toBeInTheDocument();
 });

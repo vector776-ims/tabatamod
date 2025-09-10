@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <h1>Interval Timer App</h1>
+      <h1>Boilerplate app with jest and husky </h1>
     </main>
   )
 }
