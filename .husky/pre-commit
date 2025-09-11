@@ -1,4 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm test
+# run ESLint and Prettier checks
+npm run lint
+npx prettier --check .
